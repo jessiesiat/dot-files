@@ -1,0 +1,27 @@
+alias ls='ls -F --color --show-control-chars'
+alias ll='ls -l'
+alias gs='git status'
+alias ga='git add'
+alias gb='git branch'
+alias gc='git commit'
+alias gm='git merge'
+alias gd='git diff'
+alias go='git checkout'
+alias gk='gitk --all&'
+alias gx='gitx --all'
+alias got='git '
+alias get='git '
+
+alias commit='git commit'
+alias branch='git branch'
+alias push='git push'
+alias pull='git pull'
+alias add='git add'
+alias log='git log'
+alias checkout='git checkout'
+alias clean='git clean -df'
+alias nah='git reset --hard && git clean -df'
+alias wip="git add . && git commit -m 'wip'"
+
+#artisan
+alias art='php artisan'
